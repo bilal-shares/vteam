@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="V Team icon">
+  <rect width="512" height="512" rx="112" fill="#05070b"/>
+  <path d="M128 146h70l58 168 58-168h70L287 384h-62L128 146Z" fill="#0ea5ff"/>
+  <path d="M116 384h280" stroke="#f43f5e" stroke-width="34" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "name": "V Team Fitness Hub",
+  "short_name": "V Team",
+  "description": "Gym membership management for V Team Fitness Hub.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#05070b",
+  "theme_color": "#0ea5ff",
+  "icons": [
+    {
+      "src": "/icons/vteam-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

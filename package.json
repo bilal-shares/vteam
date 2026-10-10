@@ -1,0 +1,34 @@
+{
+  "name": "vteam-fitness-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --persist-to ./.wrangler/state",
+    "build": "wrangler types && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "wrangler types && tsc --noEmit",
+    "wrangler:types": "wrangler types",
+    "db:migrate:local": "wrangler d1 migrations apply vteam-fitness-hub --local",
+    "db:migrate:remote": "wrangler d1 migrations apply vteam-fitness-hub --remote",
+    "deploy": "wrangler deploy",
+    "deploy:dry-run": "wrangler deploy --dry-run"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "lucide-react": "^0.545.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9",
+    "vitest": "^5.0.3",
+    "wrangler": "^4.149.0"
+  }
+}
